@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function POST(){return NextResponse.json({insight:"Your recent spending is concentrated in Food, Transport and Shopping. In a real product, AI could turn these normalized transactions into personalized budgeting advice."});}

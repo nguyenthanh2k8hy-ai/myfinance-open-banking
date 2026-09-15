@@ -1,0 +1,1 @@
+export type Bank={id:string;name:string;type:string;icon:string}; export type Account={id:string;bankId:string;name:string;masked:string;balance:number;currency:string}; export type Transaction={id:string;accountId:string;merchant:string;category:string;amount:number;date:string;kind:"income"|"expense";icon:string};

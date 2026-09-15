@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; export async function POST(req:Request){const b=await req.json();return NextResponse.json({success:true,consentId:"CONSENT-"+Math.random().toString(36).slice(2,9).toUpperCase(),bankId:b.bankId,scopes:["accounts.read","balances.read","transactions.read"],status:"AUTHORIZED"});}

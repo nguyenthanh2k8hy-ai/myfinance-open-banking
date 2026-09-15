@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server"; import {seedAccounts} from "@/lib/mock-data"; export async function GET(){return NextResponse.json({data:seedAccounts,source:"Mock Open Banking API"});}
