@@ -48,3 +48,13 @@ Mở `http://localhost:3000`.
 - Mock API: `src/app/api/*`
 
 Đây là sandbox/presentation prototype, không phải hệ thống tài chính production.
+
+
+## Nang cap giao dich theo ngan hang (v3)
+
+- Moi giao dich luu `bankId`, `bankName` va 4 so cuoi tai khoan.
+- Lich su giao dich hien ro nguon: ngan hang + tai khoan.
+- Form them giao dich cho phep chon dung ngan hang/tai khoan; so du chi thay doi o tai khoan duoc chon.
+- Co bo loc giao dich theo ngan hang.
+- Du lieu `localStorage` cu (`mf-vn-v2`) duoc migrate tu dong, khong can xoa sandbox cu.
+- Moi tai khoan co `openingBalance` de giu logic: so du hien tai = so du dau ky + thu - chi.
